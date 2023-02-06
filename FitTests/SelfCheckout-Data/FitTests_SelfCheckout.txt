@@ -1,0 +1,71 @@
+Starting Fit Tests for -SelfCheckout- data 
+
+Starting Uniform fit...
+Uniform: Alpha: 76.0 Beta: 208.0
+Scale is: 132.0
+ChiSquare Statistic nan P value nan
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we reject the null hypothesis
+
+# Tweaking one Variable changes the Uniform fit to not be 'nan', however the scale and loc parameters are changed and incorrect I believe:
+Starting Uniform fit...
+Uniform: Alpha: 0.0 Beta: 284.0
+Scale is: 284.0
+ChiSquare Statistic 37.432 P value 0.273
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+
+Starting Uniform KS fit...
+Uniform: Alpha: 76.0 Beta: 132.0
+KS statistic 0.43243243243243246
+p value 0.0017347446972259767
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we reject the null hypothesis
+
+Starting Weibull Fit... 
+Weibull: Alpha: 3.524426920110126 Beta: 213.21774731498783
+ChiSquare Statistic 24.434 P value 0.860
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+Starting Weibull KS Fit...
+Weibull: Alpha: 3.524426920110126 Beta: 213.21774731498783
+KS statistic 0.10810810810810811
+p value 0.9845599548024895
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we can not reject the null hypothesis
+
+Number of bins: 35
+
+Starting Lognormal Fit... 
+Lognorm: Shape: 0.3614074573845922 Scale: 179.99799649904895 Location: 0.0
+ChiSquare Statistic 30.432 P value 0.596
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+Starting Lognorm KS Fit...
+Lognorm: Alpha: 0.3614074573845922 Beta: 179.99799649904895
+KS statistic 0.10810810810810811
+p value 0.9845599548024895
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we can not reject the null hypothesis
+
+Starting Gamma Fit... 
+Gamma: Alpha: 8.433267860704868 Beta: 22.67403566145402
+ChiSquare Statistic 27.497 P value 0.738
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+Starting Gamma KS Fit...
+Gamma: Alpha: 8.433267860704868 Beta: 22.67403566145402
+KS statistic 0.10810810810810811
+p value 0.9845599548024895
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we can not reject the null hypothesis
+

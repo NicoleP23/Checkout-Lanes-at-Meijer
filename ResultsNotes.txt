@@ -1,0 +1,57 @@
+NOTE TO SELF: Remember this was data collected from one person so not a lot so much more variability in the distribution compared to the whole class going out and getting data which would be much more data
+
+Confidence Intervals:
+[SelfC GA] - Confidence Interval of 0.99: [164.53106860127323, 217.90136383115922]
+[SelfC SIM] - Confidence Interval of 0.99: [184.07038129069565, 245.33364871697984]
+[SelfC GA] - Confidence Interval of 0.95: [170.91132715568602, 211.52110527674643]
+[SelfC SIM] - Confidence Interval of 0.95: [191.3942209731291, 238.00980903454638]
+
+[CashierC GA] - Confidence Interval of 0.99: [164.53106860127323, 217.90136383115922]
+[CashierC SIM] - Confidence Interval of 0.99: [157.8873685875269, 216.44281111379672]
+[CashierC GA] - Confidence Interval of 0.95: [170.91132715568602, 211.52110527674643]
+[CashierC SIM] - Confidence Interval of 0.95: [164.88749593320543, 209.4426837681182]
+
+********SIMULATION********
+200 Iterations:
+
+Average Overall Cashier Checkout Checkout Time: 187.04636219587906
+Average Overall Max Cashier Checkout Checkout Time: 222.53494416897047
+Average Overall Min Cashier Checkout Checkout Time: 156.02038060623784
+Total Amount of Customers per Cashier Checkout Sim: 7940
+
+Average Overall Self-Checkout Checkout Time: 216.98151510341933
+Average Overall Max Self-Checkout Checkout Time: 255.10757626405677
+Average Overall Min Self-Checkout Checkout Time: 185.13251151743773
+Total Amount of Customers per Self-Checkout Sim: 8098
+
+300 Iterations:
+Average Overall Cashier Checkout Checkout Time: 187.16508985066181
+Average Overall Max Cashier Checkout Checkout Time: 220.6214210362451
+Average Overall Min Cashier Checkout Checkout Time: 154.70921932800016
+Average Overall SEM of Cashier Checkout Checkout Time: 11.366328204589072
+Total Amount of Customers per Cashier Checkout Sim: 12024
+STD: 6.981
+
+Average Overall Self-Checkout Checkout Time: 214.70201500383774
+Average Overall Max Self-Checkout Checkout Time: 257.2511263882891
+Average Overall Min Self-Checkout Checkout Time: 182.34408753443557
+Average Overall SEM of Self-Checkout Checkout Time: 11.89195016569566
+Total Amount of Customers per Self-Checkout Sim: 12039
+STD: 7.241
+
+
+********COLLECTED********
+Self Checkout Data uses 35 bins
+Self Checkout Mean: 191.216
+Self Checkout std: 7.884
+Self Checkout SEM: 10.360
+Self Checkout mPerks Mean: .513513
+Self Checkout Assistance Mean: 0.486486
+Mean of waiting for Assistance: 21.166666
+Mean of getting Assistance: 20.5
+
+Cashier Checkout Data uses 20 bins
+Cashier Checkout Mean: 180.714
+Cashier Checkout std: 8.254
+Cashier Checkout SEM: 11.684
+Cashier Checkout mPerks Mean: .428571

@@ -1,0 +1,54 @@
+Starting Fit Tests for -CashierCheckout- data 
+
+Number of bins: 20
+
+Starting Exponential Fit...
+Exponential MLE: 180.71428571428572
+ChiSquare Statistic 56.462 P value 0.000
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we reject the null hypothesis
+
+Starting Weibull Fit... 
+Weibull: Alpha: 2.86372525929055 Beta: 203.30183396614754
+ChiSquare Statistic 15.972 P value 0.594
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+Starting Weibull KS Fit...
+Weibull: Alpha: 2.86372525929055 Beta: 203.30183396614754
+KS statistic 0.14285714285714285
+p value 0.8744945061403145
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we can not reject the null hypothesis
+
+Number of bins: 20
+
+Starting Lognormal Fit... 
+Lognorm: Shape: 0.3816123378187324 Scale: 168.24036960493748 Location: 0.0
+ChiSquare Statistic 12.581 P value 0.816
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+Starting Lognorm KS Fit...
+Lognorm: Alpha: 0.3816123378187324 Beta: 168.24036960493748
+KS statistic 0.08571428571428572
+p value 0.9997026876722495
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we can not reject the null hypothesis
+
+Starting Gamma Fit... 
+Gamma: Alpha: 7.153270645561125 Beta: 25.263169068882608
+ChiSquare Statistic 13.139 P value 0.783
+H0: (null hypothesis) Sample data follows the hypothesized distribution.
+H1: (alternative hypothesis) Sample data does not follow a hypothesized distribution.
+we can not reject the null hypothesis
+Starting Gamma KS Fit...
+Gamma: Alpha: 7.153270645561125 Beta: 25.263169068882608
+KS statistic 0.11428571428571428
+p value 0.9793840108821031
+H0: (null hypothesis) Sample data comes from same distribution as theoretical distribution.
+H1: (alternative hypothesis) Sample data does not comes from same distribution as theoretical distribution.
+we can not reject the null hypothesis
